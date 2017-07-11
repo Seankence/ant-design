@@ -25,7 +25,7 @@ const props = {
   name: 'file',
   multiple: true,
   showUploadList: false,
-  action: '//jsonplaceholder.typicode.com/posts/',
+  action: 'http://127.0.0.1:8082/sdk/upload',
   onChange(info) {
     const status = info.file.status;
     if (status !== 'uploading') {
